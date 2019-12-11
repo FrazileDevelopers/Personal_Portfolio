@@ -25,7 +25,7 @@ class Adityadroid extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Parth Aggarwal',
+      title: 'Parth Aggarwal (پرتھ  اگروال)',
       theme: ThemeSwitcher.of(context).isDarkModeOn
           ? darkTheme(context)
           : lightTheme(context),

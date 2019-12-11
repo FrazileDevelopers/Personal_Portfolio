@@ -22,7 +22,16 @@ class AboutTab extends StatelessWidget {
               ),
               Text(
                 'Parth Aggarwal',
-                textScaleFactor: 4,
+                textScaleFactor: 4.0,
+                style: TextStyle(fontWeight: FontWeight.normal),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                'پرتھ  اگروال',
+                textScaleFactor: 2.5,
+                style: Theme.of(context).textTheme.subtitle,
               ),
               SizedBox(
                 height: 20,
